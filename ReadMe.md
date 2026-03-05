@@ -1,4 +1,4 @@
-Verified to work with **Keycloak 26.0.2**
+Verified to work with **Keycloak 26.5.4**
 
 Please build the project using Gradle.
 

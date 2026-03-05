@@ -9,10 +9,15 @@ repositories {
     mavenCentral()
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
 dependencies {
-    compileOnly 'org.keycloak:keycloak-services:26.0.2'
-    compileOnly 'org.keycloak:keycloak-server-spi:26.0.2'
-    compileOnly 'org.keycloak:keycloak-server-spi-private:26.0.2'
+    compileOnly 'org.keycloak:keycloak-services:26.5.4'
+    compileOnly 'org.keycloak:keycloak-server-spi:26.5.4'
+    compileOnly 'org.keycloak:keycloak-server-spi-private:26.5.4'
 }
 
 test {
